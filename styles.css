@@ -36,6 +36,12 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-gallery {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -264,5 +270,8 @@ footer p {
   }
   .embed {
     aspect-ratio: 16 / 9;
+  }
+  .grid-gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
