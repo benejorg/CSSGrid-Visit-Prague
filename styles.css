@@ -9,12 +9,25 @@
 
 body {
   background-color: #272044;
+  margin: 0;
 }
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
   background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  column-gap: 25px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
@@ -69,6 +82,49 @@ header a:hover {
   color: #fff;
   border: 2px solid #fff;
 }
+
+footer {
+  color: #fff;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("img/footer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2.5;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+footer p {
+  opacity: 0.75;
+}
+
+/* Media Rules */
 
 @media only screen and (max-width: 900px) {
   header {
