@@ -42,6 +42,10 @@ body {
   gap: 20px;
 }
 
+.grid-gallery img {
+  filter: grayscale(50%) contrast(110%);
+}
+
 .text-center {
   text-align: center;
 }
