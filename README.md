@@ -1,4 +1,4 @@
-# CSSGrid Visit Prague
+# CSSGrid Visit Prague 🇨🇿
  
 A project to familiarise myself with the CSS grid property.
 
